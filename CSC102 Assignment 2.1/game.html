@@ -1,0 +1,37 @@
+<!--Week Two: CSC102 Assignment 2.1-->
+<!--Dice Game with Animation vide-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale = 1.0">
+    <title> Quarks Casino - Craps Game"</title>
+    <!-- <video id="robots" width="450" height="340" controls>
+        <source src="id" type="video/mp4">  Robot animation file-->
+    <!--</video>-->
+    <link rel="stylesheet" type="styles/css" href="AnimateWebpage.css">
+    </link>
+    <script src="code.js"></script>
+    <!--Hides Video--> 
+    <style>
+        #winVideo {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightblue;">
+    <h1>Welcome to Quarks Casino!</h1><!-- Title of the game-->
+    <!-- Display Video on Webpage--> 
+    <div id="container">
+    <iframe id="winVideo" width="560" height="315" src="https://www.youtube.com/embed/uIal04YH0sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="buttons">
+        <button onclick="playCraps()">Role Dice!</button> <!--Button named 'Role Dice!-->
+    <button onclick="Restart()">Restart Game</button>
+    </div>
+    </div>
+    <div id="gameResult"></div>
+</body>
+
+</html>
